@@ -10,7 +10,9 @@ namespace LaConsola1
     {
         public void Saludo()
         {
-
+            Console.WriteLine("Hola Mundo");
+            Console.WriteLine("\nPresione cualquier tecla para Finalizar");
+            Console.ReadKey();
         }
 
         public void Iniciar()
@@ -18,10 +20,7 @@ namespace LaConsola1
             Saludo();
         }
 
-        public Sistema()
-        {
-
-        }
+        
     }
 
 
